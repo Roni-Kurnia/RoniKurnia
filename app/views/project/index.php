@@ -24,7 +24,7 @@
                             style="background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%); 
                                     transition: all 0.3s ease;">
                             <div class="position-relative overflow-hidden">
-                                <img src="<?= BASEURL; ?>/asset/<?= $project['image']; ?>" 
+                                <img src="<?= BASEURL; ?>/asset/project/<?= $project['image']; ?>" 
                                     class="card-img-top project-image" 
                                     alt="Laravel Project"
                                     style="height: 250px; object-fit: cover; transition: transform 0.3s ease;">
@@ -36,10 +36,10 @@
                                 <h5 class="card-title text-white fw-bold mb-3"><?= $project['title']; ?></h5>
                                 <p class="card-text text-white-50 flex-grow-1"><?= $project['description']; ?></p>
                                 <div class="d-flex gap-2">
-                                    <a href="<?= $project['visit_url']; ?>" class="btn btn-info flex-fill">
+                                    <a target="_blank" href="<?= $project['visit_url']; ?>" class="btn btn-info flex-fill">
                                         <i class="bi bi-eye"></i> Visit
                                     </a>
-                                    <a href="<?= $project['code_url']; ?>" class="btn btn-outline-info flex-fill">
+                                    <a target="_blank" href="<?= $project['code_url']; ?>" class="btn btn-outline-info flex-fill">
                                         <i class="bi bi-code"></i> Code
                                     </a>
                                 </div>

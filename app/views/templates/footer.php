@@ -72,10 +72,6 @@
                         <i class="bi bi-envelope-fill text-info me-2"></i>
                         Roni.Kurnia4249@email.com
                     </li>
-                    <li class="mb-2">
-                        <i class="bi bi-phone-fill text-info me-2"></i>
-                        +62 896 0863 8720
-                    </li>
                 </ul>
             </div>
         </div>
@@ -102,7 +98,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #858484ff; 
+            background-color: #7c8185ff; 
             border: 2px solid #17a2b8;
             border-radius: 50px;
             transition: all 0.3s ease;
